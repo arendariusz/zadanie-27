@@ -1,0 +1,7 @@
+spring:
+  liquibase:
+    change-log: classpath:db/changelog/master.xml
+    contexts: dev
+  h2:
+    console:
+      enabled: true
